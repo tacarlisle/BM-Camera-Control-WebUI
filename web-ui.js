@@ -319,7 +319,7 @@ function switchCamera(index) {
 
     // Update the UI
 
-    for (var i = 0; i < 8; i++) {
+    for (var i = 0; i < 10; i++) {
         if (i == ci) {
             document.getElementsByClassName("cameraSwitchLabel")[i].classList.add("selectedCam");
         } else {
